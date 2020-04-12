@@ -10,5 +10,10 @@ int initOLED()
   {
     return -1;
   }
+
+  pinMode(BUTTON_A, INPUT_PULLUP);
+  pinMode(BUTTON_B, INPUT_PULLUP);
+  pinMode(BUTTON_C, INPUT_PULLUP);
+  
   return 0;
 }
